@@ -7,5 +7,7 @@
   [Icoding](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/icoding/README.md)
 
 - 写过的项目程序代码
+  
+  [社区管理系统](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/Community%20management%20system/README.md)
 
 - ~~可能之后还会有C++笔记~~
