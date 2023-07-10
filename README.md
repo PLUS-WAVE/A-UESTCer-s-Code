@@ -4,6 +4,8 @@
 
 - 一些icoding上的作业
   
-  [Icoding](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/icoding/)
+  [Icoding](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/icoding/README.md)
+
 - 写过的项目程序代码
+
 - ~~可能之后还会有C++笔记~~
