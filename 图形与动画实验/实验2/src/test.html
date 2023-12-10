@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>PCD visulize</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body style="color: rgb(131, 131, 131);">
+	<script type="importmap">
+		{
+		  "imports": {
+			"three": "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js",
+			"three/addons/": "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/"		
+		  }
+		}
+	</script>
+	<div class="container">
+		<div class="panel panel1" id="Panel1"
+			style="position: relative;height: calc(50vh - 2px);width: 50vw;border-bottom: #ccc 2px solid;border-right: #ccc 2px solid">
+			<fieldset style="position: absolute; right: 0; top: 0;">
+				<legend>选择显示模式</legend>
+				<div>
+					<input type="radio" id="original1" name="display1" value="original1" checked />
+					<label for="original1">处理前</label>
+				</div>
+				<div>
+					<input type="radio" id="filtered1" name="display1" value="filtered1" />
+					<label for="filtered1">处理后</label>
+				</div>
+			</fieldset>
+
+			<script type="module" src="js/PCLFilter.js"> </script>
+		</div>
+		<div class="panel panel2" id="Panel2"
+			style="position: absolute;right: 0;top: 0;height: 100vh;width: calc(50vw - 4px);">
+			<fieldset style="position: absolute; right: 0; top: 0;">
+				<legend>选择显示模式</legend>
+				<div>
+					<input type="radio" id="original2" name="display2" value="original2" checked />
+					<label for="original2">处理前</label>
+				</div>
+				<div>
+					<input type="radio" id="filtered2" name="display2" value="filtered2" />
+					<label for="filtered2">处理后</label>
+				</div>
+			</fieldset>
+
+			<script type="module" src="js/PCLKeyPoints.js"> </script>
+		</div>
+		<div class="panel panel3" id="Panel3"
+			style="position: relative;height: 50vh;width: 50vw;border-right: #ccc 2px solid">
+			<fieldset style="position: absolute; right: 0; top: 0;">
+				<legend>选择显示模式</legend>
+				<div>
+					<input type="radio" id="original3" name="display3" value="original3" checked />
+					<label for="original3">处理前</label>
+				</div>
+				<div>
+					<input type="radio" id="filtered3" name="display3" value="filtered3" />
+					<label for="filtered3">处理后</label>
+				</div>
+			</fieldset>
+
+			<script type="module" src="js/PCLCutter.js"> </script>
+		</div>
+
+	</div>
+	<style>
+		.container {
+			/* display: grid; */
+			/* grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr; */
+			height: 100vh;
+		}
+
+		.panel {
+			flex: 1 0 50%;
+			border: 1px solid #ccc;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#panel2 {
+			height: 100vh;
+		}
+	</style>
+
+
+
+
+	<!-- <script type="importmap">
+				{
+					"imports": {
+					"three": "../../node_modules/three/build/three.module.js",
+				"three/addons/": "../../node_modules/three/examples/jsm/"
+		  }
+		}
+	</script> -->
+
+
+
+
+</body>
+
+</html>
