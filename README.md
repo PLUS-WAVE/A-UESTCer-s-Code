@@ -4,11 +4,11 @@
 
 - 一些icoding上的作业
   
-  [Icoding](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/icoding/README.md)
+  [Icoding（C语言+数据结构）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/icoding/README.md)
 
 - 写过的项目程序代码
   
-  [社区管理系统](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/Community%20management%20system/README.md)
+  [社区管理系统（C语言大作业）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/blob/master/Community%20management%20system/README.md)
 
 - 图形与动画实验
 
