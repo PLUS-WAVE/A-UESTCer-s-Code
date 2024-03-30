@@ -5,9 +5,8 @@
 ### 大一
 
 -  程序设计与算法基础I&II（C语言&数据结构）
-
-  - [社区管理系统（C语言大作业）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/Community%20management%20system)
-  - [Icoding（C语言+数据结构）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/icoding)
+   - [社区管理系统（C语言大作业）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/Community%20management%20system)
+   - [Icoding（C语言+数据结构）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/icoding)
 
 ### 大二
 
