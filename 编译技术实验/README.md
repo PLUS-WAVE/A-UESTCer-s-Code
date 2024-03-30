@@ -4,7 +4,7 @@
 
 - **lab4**由于太难，老师只要求交报告和未完成的代码
 
-  本代码参照 https://github.com/henry-bugfree/SysY_Compiler 完成，但是我还是把代码放上来，其可以在Linux环境中正常运行，但**不能通过Icoding！！！**
+  lab4代码参照 https://github.com/henry-bugfree/SysY_Compiler 完成，但是我还是把代码放上来，其可以在Linux环境中正常运行，但**不能通过Icoding！！！**
 
   而且其中有部分功能还未实现
 
