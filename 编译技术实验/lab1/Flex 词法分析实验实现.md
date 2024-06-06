@@ -1,1 +1,1 @@
-详情请见CSDN——http://t.csdnimg.cn/FgJ0s
+详情请见CSDN——[Flex 词法分析实验实现（电子科技大学编译技术Icoding实验）](https://blog.csdn.net/WJwwwwwww/article/details/133829152?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22133829152%22%2C%22source%22%3A%22WJwwwwwww%22%7D)
