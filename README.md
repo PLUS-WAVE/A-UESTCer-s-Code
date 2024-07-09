@@ -23,7 +23,7 @@
 
 ### 大二下
 
-- 操作系统原理与实践
+- [操作系统原理与实践](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C)
   1. 实验1：生产者消费者问题的实现
   2. 实验2：文件状态测试
 - 计算机网络系统
