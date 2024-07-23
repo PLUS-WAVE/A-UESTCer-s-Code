@@ -21,15 +21,15 @@
   3. 实验3 LR语法分析
   4. 实验4 代码生成
 
-### 大二下（更新中...）
+### 大二下
 
 - [操作系统原理与实践](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C)
   1. 实验1：生产者消费者问题的实现
   2. 实验2：文件状态测试
-- 计算机网络系统
+- [计算机网络系统](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F)
   1. Socket 编程实验
   2. 思科网站实验：答案在google上一搜一大把
-- 图像与动画Ⅱ
+- [图像与动画Ⅱ](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A1)
   1. 实验一 OpenGL 基础实验（一）
   2. 实验二 OpenGL 基础实验（二）
   3. 实验三 粒子系统
