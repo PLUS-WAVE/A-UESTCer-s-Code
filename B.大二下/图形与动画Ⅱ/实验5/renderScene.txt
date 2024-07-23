@@ -1,0 +1,115 @@
+static float	rotate_x = 30;
+static float	rotate_y = 15;
+static float	translate_z = 4;
+
+void renderScene(void)
+{
+	const float t = glutGet (GLUT_ELAPSED_TIME) / 1000.;
+	const float delta = 2. / RESOLUTION;
+	const unsigned int length = 2 * (RESOLUTION + 1);
+	const float xn = (RESOLUTION + 1) * delta + 1;
+	unsigned int i;
+	unsigned int j;
+	float x;
+	float y;
+	unsigned int indice;
+	unsigned int preindice;
+
+	glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	glLoadIdentity();
+	glTranslatef(0, 0, -translate_z);
+	glRotatef(rotate_y, 1, 0, 0);
+	glRotatef(rotate_x, 0, 1, 0);
+
+	/* Vertices */
+	for (j = 0; j < RESOLUTION; j++)
+	{
+		y = (j + 1) * delta - 1;
+		for (i = 0; i <= RESOLUTION; i++)
+		{
+			indice = 6 * (i + j * (RESOLUTION + 1));
+
+			x = i * delta - 1;
+			surface[indice + 3] = x;
+			surface[indice + 4] = waveHeight(x, y, t);
+			surface[indice + 5] = y;
+			if (j != 0)
+			{
+				/* Values were computed during the previous loop */
+				preindice = 6 * (i + (j - 1) * (RESOLUTION + 1));
+				surface[indice] = surface[preindice + 3];
+				surface[indice + 1] = surface[preindice + 4];
+				surface[indice + 2] = surface[preindice + 5];
+			}
+			else
+			{
+				surface[indice] = x;
+				surface[indice + 1] = waveHeight(x, -1, t);
+				surface[indice + 2] = -1;
+			}
+			/* Normals */
+			Vector3 n = waveNormal(surface[indice],surface[indice + 2],t);
+			normal[indice] = n.x;
+			normal[indice+1] = n.y;
+			normal[indice+2] = n.z;	
+
+			n = waveNormal(surface[indice + 3],surface[indice + 5],t);
+			normal[indice +3] = n.x;
+			normal[indice+4] = n.y;
+			normal[indice+5] = n.z;	
+
+		}
+	}
+
+
+	/* The ground */
+	glPolygonMode (GL_FRONT_AND_BACK, GL_FILL);
+	glColor4f (1.0f, 0.9f, 0.7f,1.0f);
+	glBegin (GL_QUADS);
+		glNormal3f(0.0f,1.0f,0.0f);
+		glVertex3f (-1.0f, 0.0f, -1.0f);
+		glVertex3f (-1.0f, 0.0f, 1.0f);
+		glVertex3f ( 1.0f, 0.0f, 1.0f);
+		glVertex3f ( 1.0f, 0.0f, -1.0f);	
+	glEnd ();
+
+	glTranslatef (0, 0.2, 0);
+
+	/* Render wireframe? */
+	if (wire_frame != 0)
+		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
+
+	/* The water */
+	//glEnable(GL_TEXTURE_2D);
+	glColor4f(0.0f, 0.5f, 1.0f, 1.0f);
+	glEnableClientState(GL_NORMAL_ARRAY);
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glNormalPointer(GL_FLOAT, 0, normal);
+	glVertexPointer(3, GL_FLOAT, 0, surface);
+	for (i = 0; i < RESOLUTION; i++)
+		glDrawArrays(GL_TRIANGLE_STRIP, i * length, length);
+
+	/* Draw normals? */
+	if (normals != 0)
+	{
+		glDisable (GL_TEXTURE_2D);
+		glColor3f (1, 0, 0);
+		glBegin (GL_LINES);
+			for (j = 0; j < RESOLUTION; j++)
+				for (i = 0; i <= RESOLUTION; i++)
+				{
+					indice = 6 * (i + j * (RESOLUTION + 1));
+					glVertex3fv (&(surface[indice]));
+					glVertex3f (surface[indice] + normal[indice] / 50,
+						surface[indice + 1] + normal[indice + 1] / 50,
+						surface[indice + 2] + normal[indice + 2] / 50);
+				}
+		glEnd ();
+	}
+
+	/* End */
+	glutSwapBuffers();
+	glutPostRedisplay();
+}
