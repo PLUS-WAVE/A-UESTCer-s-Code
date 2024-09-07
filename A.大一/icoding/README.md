@@ -1,5 +1,7 @@
 # Icoding答案/解析
 
+所有实验的博客文章在[CSDN](https://blog.csdn.net/WJwwwwwww?spm=1011.2415.3001.5343)上或者[我的个人网站](https://plus-wave.github.io/)上
+
 ##### Ⅰ.目前大一上学期的icoding（c语言）都是以.cpp的形式保存基本没有任何注释，只有题目和代码；
 
 - [实验1](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/A.%E5%A4%A7%E4%B8%80/icoding/%E5%AE%9E%E9%AA%8C01)

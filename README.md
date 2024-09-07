@@ -2,6 +2,8 @@
 
 **一个电子科技大学信软在读学生的代码库**
 
+所有实验的**博客文章**在[CSDN](https://blog.csdn.net/WJwwwwwww?spm=1011.2415.3001.5343)上或者[我的个人网站](https://plus-wave.github.io/)上
+
 ### 大一
 
 -  程序设计与算法基础I&II（C语言&数据结构）

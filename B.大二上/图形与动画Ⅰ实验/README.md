@@ -1,3 +1,5 @@
+所有实验的博客文章在[CSDN](https://blog.csdn.net/WJwwwwwww?spm=1011.2415.3001.5343)上或者[我的个人网站](https://plus-wave.github.io/)上
+
 本文件夹是电子科技大学软件工程（数字动漫）的大二上的**图像与动画Ⅰ**的实验
 
 1. [Three.js 实现简单的PCD加载器（可从本地读取pcd文件）](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8A/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A0%E5%AE%9E%E9%AA%8C/%E5%AE%9E%E9%AA%8C1/src)

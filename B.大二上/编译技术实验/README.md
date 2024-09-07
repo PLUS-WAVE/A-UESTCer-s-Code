@@ -1,3 +1,5 @@
+所有实验的博客文章在[CSDN](https://blog.csdn.net/WJwwwwwww?spm=1011.2415.3001.5343)上或者[我的个人网站](https://plus-wave.github.io/)上
+
 这是大二上学期的究极折磨人的编译技术实验，这里只有完成的**lab1**、**lab2**
 
 - lab3是借鉴他人代码不上传，见谅

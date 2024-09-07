@@ -1,3 +1,5 @@
+所有实验的博客文章在[CSDN](https://blog.csdn.net/WJwwwwwww?spm=1011.2415.3001.5343)上或者[我的个人网站](https://plus-wave.github.io/)上
+
 本文件夹是**图形与动画Ⅱ**课程的实验：
 
 1. 实验一 OpenGL 基础实验（一）
