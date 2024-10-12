@@ -12,7 +12,7 @@
 
 ### 大二上
 
-- [图像与动画Ⅰ实验](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8A/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A0%E5%AE%9E%E9%AA%8C)
+- [图形与动画Ⅰ实验](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8A/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A0%E5%AE%9E%E9%AA%8C)
   1. Three.js 实现简单的PCD加载器（可从本地读取pcd文件）
   2. Three.js+pcl.js 实现Web端的点云处理+显示
   3. 基于Three.cad实现自己的CAD平台
@@ -31,7 +31,7 @@
 - [计算机网络系统](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F)
   1. Socket 编程实验
   2. 思科网站实验：答案在google上一搜一大把
-- [图像与动画Ⅱ](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A1)
+- [图形与动画Ⅱ](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/B.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E2%85%A1)
   1. 实验一 OpenGL 基础实验（一）
   2. 实验二 OpenGL 基础实验（二）
   3. 实验三 粒子系统
