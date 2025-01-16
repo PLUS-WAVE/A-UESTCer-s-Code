@@ -41,4 +41,10 @@
 
 ### 大三上
 
-- 数字图像处理
+- [数字图像处理](https://github.com/PLUS-WAVE/A-UESTCer-s-Code/tree/master/C.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86)
+  1. lab1 数字图像处理基础
+  2. lab2 图像增强技术
+  3. lab3 图像压缩技术
+  4. lab4 图像的边缘检测和分割
+  5. lab5 基于神经网络的图像处理基础
+
