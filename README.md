@@ -56,5 +56,10 @@
 >
 > 三个阶段最终实现一个基于嵌入式平台的多视觉三维立体重建系统
 
+综设相关博客：(CSDN和[我的个人网站](https://plus-wave.github.io/article/lk96629c/)都有)
+- [1 基于SIFT图像特征识别的匹配方法比较与实现](https://blog.csdn.net/WJwwwwwww/article/details/132793445)
+- [2 OpenCV实现的F矩阵+RANSAC原理与实践](https://blog.csdn.net/WJwwwwwww/article/details/133064830)
+- [3 OpenCV两张图片实现稀疏点云的生成](https://blog.csdn.net/WJwwwwwww/article/details/133266228)
+- [4 OpenCV实现多目三维重建（多张图片增量式生成稀疏点云）【附源码】](https://blog.csdn.net/WJwwwwwww/article/details/133953403)
 
 最终成果：[https://github.com/PLUS-WAVE/WAVE-3D-Reconstruction](https://github.com/PLUS-WAVE/WAVE-3D-Reconstruction)
